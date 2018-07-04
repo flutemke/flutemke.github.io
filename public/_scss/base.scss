@@ -1,0 +1,34 @@
+$sans-serif: 'Libre Franklin', sans-serif;
+$serif:      'Gentium Basic', serif;
+$light:       #fafbfd;
+$medium:      #f3e7c5;
+$dark:        #0e3233;
+$accent:      #feca00;
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    padding-top: 2em;
+}
+
+h1 {
+	font-family: $sans-serif;
+	color: $accent;
+	font-weight: 700;
+	text-align: center;
+	line-height: 1.4
+}
+
+p {
+	font-family: $serif;
+	color: $light;
+	font-size: 24px;
+	text-align: center;
+}
+
+img {
+	border-radius: 50%;
+	border: 3px solid $medium;
+}
